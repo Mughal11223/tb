@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: sans-serif;
+} 
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background:#fafafa;
+    align-items: center;
+}
+table{
+ text-align: center;
+width:80vw;
+justify-content: center;
+font-size: small;
+background-color: #fafafa;
+
+box-shadow: 12px 12px 5px rgba(32,32,32,.3);
+
+
+
+}
+.blue{
+    color: blue;
+}
+td img{
+    height: 20px;
+    width: 20px;
+    background-color:aqua;
+}
+
+.baba{
+    
+    border-radius:1rem ;
+    background-color: orange;
+    color: white;
+    
+}
+
+.ihtisham{
+
+    background-color: rgb(44, 128, 253);
+    color: white;
+    border-radius: 1rem;
+}
+.chisti{
+    border-radius:1rem ;
+    color: white;
+    background-color: rgba(34, 216, 34, 0.925);
+}
+td{
+    padding: 10px 10px;
+}
+th{
+    background-color: #fafafa;
+    padding: 12px 10px;
+}
+tr :nth-child(odd){
+    background-color: #eeee;
+}
